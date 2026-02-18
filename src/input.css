@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import "tailwindcss";
+
+@theme{
+    --font-roboto: 'Roboto', sans-serif;
+    --color-primary: #5E3BEE;
+    --color-body: #1C1E53;
+    --color-background: #F5FCFF;
+    --color-heading: #282938;
+    --color-pill: #E0F2FE;
+    --breakpoint-tablet: 860px;
+}
+
+@layer components{
+    .menu{
+        @apply hover:text-primary hover:transition-all hover:duration-300 cursor-pointer;
+    }
+
+    .pill{
+        @apply bg-pill/55 px-3 py-1.5 text-sm font-medium rounded-md;
+    }
+}
