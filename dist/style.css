@@ -493,6 +493,9 @@
     border-left-style: var(--tw-border-style);
     border-left-width: 4px;
   }
+  .border-\[\#0A66C2\] {
+    border-color: #0A66C2;
+  }
   .border-black\/20 {
     border-color: color-mix(in srgb, #000 20%, transparent);
     @supports (color: color-mix(in lab, red, red)) {
@@ -663,6 +666,9 @@
     --tw-tracking: var(--tracking-wider);
     letter-spacing: var(--tracking-wider);
   }
+  .text-\[\#0A66C2\] {
+    color: #0A66C2;
+  }
   .text-body {
     color: var(--color-body);
   }
@@ -770,6 +776,13 @@
     &:hover {
       @media (hover: hover) {
         border-radius: var(--radius-md);
+      }
+    }
+  }
+  .hover\:bg-\[\#0A66C2\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #0A66C2;
       }
     }
   }
